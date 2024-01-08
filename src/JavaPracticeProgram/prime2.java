@@ -1,0 +1,20 @@
+package src.JavaPracticeProgram;
+
+public class prime2 {
+    public static void main(String[] args) {
+        int num = 7;
+        boolean flag = false;
+        for (int i = 2; i <= num/2 ; ++i) {    //if set i< to num then also code get executed properly
+            // condition for nonprime number
+            if (num % i == 0) {
+                flag = true;
+                break;
+            }
+        }
+
+        if (!flag)
+            System.out.println(num + " is a prime number.");
+        else
+            System.out.println(num + " is not a prime number.");
+    }
+}

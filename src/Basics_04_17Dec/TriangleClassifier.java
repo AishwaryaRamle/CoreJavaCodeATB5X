@@ -28,7 +28,7 @@ public class TriangleClassifier {
 
         if ((side1 == side2) && (side2 == side3) && (side1 == side3)) {
             System.out.println("Triangle is Equilateral Triangle");
-        } else if ((side1 == side2) || (side2 == side3) || (side1 == side3)) {
+        } else if ((side1 == side2) || (side1 == side3) || (side2 == side3)) {
             System.out.println("Triangle is Isosceles");
         } else {
             System.out.println("Triangle is Scalene");
