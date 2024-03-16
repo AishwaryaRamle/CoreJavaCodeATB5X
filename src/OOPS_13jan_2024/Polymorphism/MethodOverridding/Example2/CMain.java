@@ -11,6 +11,7 @@ public class CMain {
         Class1 c3=new Class2();//IMP:- So here runtime polymorphism happen and class2 test method will get execute
         c3.Div();
 
+
         //Output:- Hi I am also from class1 method with no args from class2 ******IMP******
         //Also called as Dynamic Dispatch
         //Ambiguity which method should call as both have same name and args also

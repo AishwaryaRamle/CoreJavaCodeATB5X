@@ -6,9 +6,10 @@ public class Rc {
         cs1.Instructor();
 
         Course2 cs2 = new Course2();
-        cs2.instructor();
+        cs2.Instructor();
 
         Course1 cs3 = new Course2();
         cs3.Instructor();
+
     }
 }

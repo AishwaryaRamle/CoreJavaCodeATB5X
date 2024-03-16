@@ -9,5 +9,11 @@ public class Class2 extends Class1 {
         System.out.println(a);
     }
 }
-
 //Protected function can get accessible in different package subclass but not able to access in different package non subclass(main)
+ class Main
+{
+    public static void main(String[] args) {
+        Class2 c=new Class2();
+        c.doNow();
+    }
+}

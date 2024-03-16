@@ -1,6 +1,6 @@
 package src.OOPSCONCEPTS;
 
-public class Lab114_Person {
+public class Lab113_Person {
     public static void main(String[] args) {
         // Person - class blueprint
         // p - ref variable
